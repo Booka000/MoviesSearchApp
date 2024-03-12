@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Best App task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">search</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_rank">Sort by Rank</string>
+    <string name="sort_by_alphapet">Sort by Alphapet</string>
+    <string name="sort_by_rating">Sort by rating</string>
+    <string name="sort_by_votes">Sort by votes</string>
+</resources>

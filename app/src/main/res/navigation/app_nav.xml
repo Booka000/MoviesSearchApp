@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/moviesList">
+
+    <fragment
+        android:id="@+id/moviesList"
+        android:name="com.albara.bestapptask.fragments.MoviesListFragment"
+        android:label="Top Movies"
+        tools:layout="@layout/fragment_movies_list" >
+        <action
+            android:id="@+id/action_moviesList_to_favoritedMoviesFragment"
+            app:destination="@id/favoritedMoviesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritedMoviesFragment"
+        android:name="com.albara.bestapptask.fragments.FavoritedMoviesFragment"
+        android:label="Favorited Movies"
+        tools:layout="@layout/fragment_favorited_movies" />
+</navigation>
